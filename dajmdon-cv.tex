@@ -1,0 +1,753 @@
+\documentclass[11pt,letterpaper]{minimal/moderncv}
+\moderncvcolor{black}
+\moderncvstyle[nodetails]{casual}
+\usepackage[margin=1in]{geometry}
+\usepackage{bibentry}
+\usepackage{natbib}
+\newcommand{\enquote}[1]{{``#1''}}
+\newcommand{\cvbibentry}[2]{\cvitem{#2}{\leavevmode\nobreak\bibentry{#1}.\vspace*{6pt}}}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=Blue,urlcolor=Blue}
+\newcommand{\xx}{\textcolor{white}{2022}}
+\newcommand{\xxx}{\textcolor{white}{--2022}}
+\newcommand{\jog}{\hspace*{2ex}}
+\renewcommand{\cventry}[2]{\cvitem{#1}{\begin{minipage}[t]{\maincolumnwidth}#2\end{minipage}}}
+\newcommand{\bolditem}[1]{\cvitem{}{\textbf{#1}}}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+
+
+% document language
+\usepackage[english]{babel}
+
+% personal data
+\name{Daniel J.}{McDonald}
+
+\usepackage[inline]{enumitem}
+\setlist{nosep,labelindent=0ex,itemindent=0ex}
+
+% lengths
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{.5ex}
+\setlength{\hintscolumnwidth}{0.125\textwidth}
+\setlength{\separatorcolumnwidth}{0.025\textwidth}
+\setlength{\maincolumnwidth}{.85\textwidth}
+
+\renewcommand{\section}[1]{  \par\addvspace{15pt}%
+  \parbox[t]{\hintscolumnwidth}{\strut\raggedleft\raisebox{4pt}%
+  {\rule{\hintscolumnwidth}{2pt}}}%
+  \hspace{\separatorcolumnwidth}%
+  \textsc{\Large #1}\par\nobreak\addvspace{6pt}%
+}
+\renewcommand*{\cvitem}[2]{%
+  \begin{tabular}{@{}p{\hintscolumnwidth}@{\hspace{\separatorcolumnwidth}}%
+    p{\maincolumnwidth}@{}}%
+    \raggedleft {#1} &  {#2}%
+  \end{tabular}%
+}
+
+
+\begin{document}
+\maketitle
+\vspace*{-20pt}
+\fancyfoot[c]{{\itshape Daniel J.\ McDonald --- Version: \today}}
+
+
+
+\section{Contact information}
+\cvitem{}{%
+  \begin{tabular}{@{}p{3in}p{2.75in}p{.25in}@{}}
+    University of British Columbia & \emph{phone:} 604 822 0570\\
+    3106 Earth Sciences Building & \emph{www:} \href{https://dajmcdon.github.io}{https://dajmcdon.github.io/}\\
+    2207 Main Mall & \emph{email:} \href{mailto:dajmcdon@indiana.edu}{daniel@stat.ubc.ca}\\ 
+    Vancouver, BC Canada V6T 1Z4
+  \end{tabular}
+}
+
+\section{Research interests}
+\cvitem{}{Machine learning; risk estimation; computational approximations; time
+series; applications in epidemiology, economics, biology, chemistry, and music} 
+
+\section{Education}
+\cventry{2012}{Doctor of Philosophy in Statistics\\ \textbf{Carnegie Mellon
+University}, Pittsburgh PA,
+USA\\{\small
+\jog\emph{Dissertation:} ``Generalization error bounds for state space
+models''\\ 
+\jog\emph{Advisors:} Cosma R. Shalizi and Mark Schervish}} 
+
+\vspace{3pt}
+\cventry{2008}{Master of Science in Statistics\\ \textbf{Carnegie Mellon
+University}, Pittsburgh PA, USA} 
+
+\vspace{3pt}
+\cventry{2006}{Bachelor of Arts in Economics\\
+\textbf{Indiana University}, Bloomington IN, USA \\\jog{\small Summa cum
+laude}} 
+
+\vspace{3pt}
+\cventry{2006}{Bachelor of Science in Music and an Outside Field\\
+\textbf{Indiana 
+University}, Bloomington IN, USA \\{\small Majors: Cello Performance and
+Mathematics\\ \jog Magna cum laude}}
+
+
+\section{Academic appointments}
+
+\cventry{2020--\xx}{\textbf{Associate Professor of Statistics}\\University of British Columbia}
+
+\vspace{3pt}
+\cventry{2018--2020}{\textbf{Associate Professor of Statistics}\\Indiana
+University, Bloomington \\ Core faculty, 
+Department of Statistics, Program on Data Science \\ Adjunct
+Faculty, Department of Computer Science \\ Affiliate, Center for
+Algorithms and Machine Learning}
+
+\vspace{3pt} 
+\cventry{2018--2019}{\textbf{Visiting Associate Professor of Econometrics and
+Statistics}\\The University of Chicago Booth School of Business} 
+
+\vspace{3pt}
+\cventry{2012--2018}{\textbf{Assistant Professor of Statistics}\\Indiana
+University, Bloomington} 
+
+\section{Research grants awarded}
+
+\cvitem{2023--2028}{Delphi Center for Innovation in Outbreak Analytics and
+Disease Modeling. Co-PI (with R.\ Rosenfeld as PI). CDC Center for Forecasting
+and Outbreak Analytics; 17,000,000 USD. }
+
+\cvitem{2023--2025}{Development of forecast, analytic, and visualization tools
+to improve outbreak response and support public health decision-making. PI.
+NSERC Alliance International; 200,000 CAD.}
+
+\cvitem{2023--2024}{Development of forecast, analytic, and visualization tools
+to improve outbreak response and support public health decision-making. Co-PI
+(with R.J.\ Tibshirani as PI). Council of State and Territorial Epidemiologists;
+150,000 USD.}
+
+\cvitem{2023}{Digital Public Health Surveillance for the 21st Century. Co-PI
+(with R.\ Rosenfeld as PI). Centers for Disease Control and Prevention;
+3,500,000 USD.}
+
+
+\cvitem{2021--2025}{Regularization and approximation: Statistical inference,
+  model selection, and large data. PI. National Sciences and Engineering
+  Research Council of Canada, Discovery Grant, RGPIN-2021-02618; 135,000 CAD}
+
+\cvitem{2020--2021}{Detecting anomalies in COVID19
+  indicators. PI. Canadian Statistical Sciences Institute, Rapid
+  Response Program; 5,000 CAD.}
+
+\cvitem{2019--2020}{Indiana University Institute for Advanced Studies, Recently
+  Tenured Working Group Research Stipend; 8,000 USD.}
+
+\cvitem{2018--2023}{\href{http://www.nsf.gov/awardsearch/showAward?AWD_ID=1753171}{CAREER:
+  Calibrating regularization for enhanced statistical inference.}
+PI. National Science Foundation, DMS--1753171; 400,000 USD.}
+
+
+\cvitem{2014--2018}{\href{http://www.nsf.gov/awardsearch/showAward?AWD_ID=1407439}{Collaborative
+  research: Statistical and computational efficiency for 
+massive data sets via approximation-regularization.} PI. National
+Science Foundation, DMS--1407439; 90,000 USD.}
+
+
+\cvitem{2014--2016}{\href{https://www.ineteconomics.org/research/grants/high-dimensional-statistics-for-macroeconomic-forecasting}
+{High-Dimensional Statistics for Macroeconomic Forecasting.} Co-PI (with C.\ Shalizi as PI). \href{http://ineteconomics.org}{Institute for New Economic Thinking}, Grant \# INO14--0020; $142,146$ USD.}
+
+
+\cvitem{2011--2013}{\href{https://www.ineteconomics.org/research/grants/model-complexity-and-prediction-error-in-macroeconomic-forecasting} 
+{Model Complexity and Prediction Error in Macroeconomic Forecasting.}
+(with C.\ Shalizi as PI).
+\href{http://ineteconomics.org}{Institute for New Economic
+  Thinking}; 170,000 USD.}
+
+
+  
+\section{Awards and honors}
+
+\cvitem{2024}{Dean of Science Letter for Highest Teaching Evaluations}
+\cvitem{2023}{Nomination, UBC Killam Teaching Award for Science Instructors}
+\cvitem{2023}{Dean of Science Letter for Highest Teaching Evaluations}
+\cvitem{2022}{Dean of Science Letter for Highest Teaching Evaluations}
+\cvitem{2018}{National Science Foundation CAREER Award}   
+\cvitem{2017}{Indiana University Trustees' Teaching Award}
+\cvitem{2012}{Umesh Gavasakar Memorial Thesis Award}
+\cvitem{2012}{American Statistical Association, Pittsburgh Chapter Student of
+  the Year}
+\cvitem{2006}{Phi Beta Kappa}
+\cvitem{2006}{Carroll Christenson Award in Economics}
+\cvitem{2005}{Stadelmann Memorial Scholarship Award in Economics}
+\cvitem{2004}{Mr. \& Mrs. Harold E. Strow Award in Economics}
+\cvitem{2004}{Hutton Honors College International Experiences Program Award}
+\cvitem{2004}{Jacobs School of Music Summer Festival Scholarship}
+\cvitem{2003}{James A. Moffat Award for Scholarship in Economics}
+\cvitem{2002}{Alice Freese Honors College Scholarship}
+\cvitem{2002}{Indiana Young Economist Award, Indiana Council of Economic
+  Education}
+\cvitem{2002}{The Reserve Officers Association White River Chapter Scholarship}
+\cvitem{2002}{National Merit Scholarship}
+
+\section{Peer-reviewed publications}
+
+
+\nobibliography{papers.bib}
+\bibliographystyle{cvbibsty}
+
+\cvbibentry{rtestim}{2024}
+\cvitem{}{{\scshape Mathis, S.M., Webber, A.E.,\ldots, McDonald, D.J., \ldots,
+Biggerstaff, M., and Borchering, R.K.} (2024), \enquote{Evaluation of flusight
+influenza forecasting in the 2021-22 and 2022-23 seasons with a new target
+laboratory-confirmed influenza hospitalizations,}
+\href{https://www.medrxiv.org/content/10.1101/2023.12.08.23299726v1}{\em Nature
+Communications}, forthcoming.\vspace*{6pt}}
+\cvbibentry{whitematter}{}
+\cvbibentry{McDonaldSharpnack2019}{}
+\cvbibentry{TuzhlinaHastie2023}{}
+
+\cvbibentry{sparsegl}{2023}
+\cvbibentry{PhamDing2020}{}
+
+\cvbibentry{DingMcDonald2019}{2022}
+\cvitem{}{{\scshape Cramer, E.Y., Ray, E.L., Lopez, V.K., Bracher, J., \ldots,
+    McDonald, D.J., \ldots,  Johansson, M., Biggerstaff, M., and Reich, N.G.}
+    (2022), ``Evaluation of individual and ensemble probabilistic forecasts of
+    {COVID-19} mortality in the US,''
+    \href{https://doi.org/10.1073/pnas.211356111}{\em Proceedings of the
+    National Academy of Sciences},  119, e2113561119.\vspace*{6pt}}
+
+
+\cvbibentry{McDonaldBien2021}{2021}
+\cvitem{}{{\scshape Reinhart, A., Brooks, L., Jahja, M., Rumack, A., Tang, J.,
+  Saeed, \ldots, McDonald, D.J., \ldots, Rosenfeld, R., and Tibshirani, R.J.}
+  (2021), ``An open repository of real-time {COVID-19} indicators,''
+  \href{https://doi.org/10.1073/pnas.2111452118}{\em Proceedings of the National
+  Academy of Sciences}, 118, e2111452118.\vspace*{6pt}}
+  \cvbibentry{PolicastroMcDonald2020}{}
+  \cvbibentry{McDonald2016}{}
+
+
+\cvbibentry{HomrighausenMcDonald2017}{2020}
+
+\cvbibentry{KhodadadiMcDonald2018}{2019}
+
+\cvbibentry{HomrighausenMcDonald2015a}{2018}
+
+\cvbibentry{DingMcDonald2017}{2017}
+\cvbibentry{McDonald2017}{}
+\cvbibentry{McDonaldShalizi2016}{}
+\cvbibentry{HomrighausenMcDonald2015}{}
+
+\cvbibentry{HomrighausenMcDonald2016}{2016}
+
+\cvbibentry{McDonaldShalizi2015}{2015}
+\cvbibentry{LoewensteinKrishnamurti2015}{}
+
+\cvbibentry{HomrighausenMcDonald2014}{2014}
+
+\cvbibentry{HomrighausenMcDonald2013}{2013}
+
+\cvbibentry{JuePress2012}{2012}
+
+\cvbibentry{McDonaldShalizi2011a}{2011}
+
+\cvbibentry{McDonaldThornton2008}{2008}
+
+\section{Other publications}
+
+\cvbibentry{McDonald2020}{2020}
+
+
+\section{Technical reports}
+
+\cvitem{}{{\scshape McDonald, D.J., and Shalizi, C.R.} (2022), ``Empirical
+macroeconomics and DSGE modelling in statistical perspective,''
+\url{https://arxiv.org/abs/2210.16224}.\vspace*{6pt}}
+
+\cvitem{}{{\scshape Homrighausen, D., and McDonald, D.J.} (2011), ``Spectral
+approximations in machine learning,''
+\url{http://arxiv.org/abs/1107.4340}.\vspace*{6pt}}
+
+\cvitem{}{{\scshape McDonald, D.J., Shalizi, C.R., and Schervish, M.} (2011),
+``Estimated VC dimension for risk bounds,''
+\url{https://arxiv.org/abs/1111.3404}.\vspace*{6pt}}
+
+\cvitem{}{{\scshape McDonald, D.J., Shalizi, C.R., and Schervish, M.} (2011),
+``Generalization error bounds for stationary autoregressive models,''
+\url{http://arxiv.org/abs/1103.0942}.}
+
+
+    
+
+\section{Invited presentations}
+
+\cvitem{2024}{``An infectious disease forecast hub for Canada,'' Public Health 
+  Agency of Canada, EMNID Monthly Seminar}
+\cvitem{}{``Collaborative Modelling for Infectious Disease,'' Statistical Society of Canada Annual Meeting, St. Johns, NL}
+\cvitem{}{``Markov-switching state space models for uncovering musical 
+  interpretation,'' University of British Columbia $+$ Simon Fraser University
+  Joint Statistics Seminar}
+\cvitem{}{``Introduction to epidemiological forecasting,'' Workshop on Biostatistics,
+  Vancouver Machine Learning}
+
+\cvitem{2023}{``Statistical approaches to epidemic forecasting,'' Biostatistics 
+  Seminar, University of Calgary Department of Mathematics and Statistics}
+\cvitem{}{``epiprocess and epipredict: R packages for signal processing and forecasting,'' Workshop on Infectious Disease Forecasting, Council of State and Territorial Epidemiologists, Salt Lake City, UT}
+\cvitem{}{``epiprocess and epipredict: R packages to ramp up forecasting systems,'' Royal Society Meeting on Forecasting Infectious Disease Incidence, London UK}
+
+\cvitem{2022}{``Markov-switching state space models for uncovering musical
+  interpretation,'' Data Science Applied Research and Education Seminar, CANSSI
+  Ontario and University of Toronto Department of Statistical Sciences}
+\cvitem{}{``Markov-switching state space models for uncovering musical
+  interpretation,'' McGill University, Department of Mathematics and Statistics}
+
+
+\cvitem{2021}{``Your model is beautiful, but does it predict?'' NeurIPS
+  I Can't Believe It's Not Better Workshop}
+\cvitem{}{``Markov-switching state space models for uncovering musical
+  interpretation,'' International Conference on Computational and
+  Methodological Statistics}
+
+\cvitem{2020}{``Compressed and penalized linear regression,''
+  International Conference on Computational and Methodological Statistics}
+
+\cvitem{}{``Delphi's COVIDcast Project: 
+  An Ecosystem for Tracking and Forecasting the Pandemic,'' British Columbia
+  COVID-19 Modeling Group}
+
+\cvitem{}{``Minimax density estimation under triangular array asymptotics,''
+  International Workshop on Applied Probability (cancelled, COVID19)} 
+
+\cvitem{}{``Trend filtering in exponential families,'' Conference
+    on Statistical Learning and Data Science (cancelled, COVID19)}
+
+\cvitem{}{``Trend filtering in exponential families,'' Simon
+  Fraser University, Department of Statistics and Actuarial Sciences}
+
+
+\cvitem{}{``Trend filtering in exponential families,'' University
+  of British Columbia, Department of Statistics}
+
+\cvitem{2019}{``Markov-switching state space models for uncovering
+  musical interpretation,'' Simon Fraser University, Department of
+  Statistics and Actuarial Sciences}
+
+\cvitem{}{ ``Trend filtering in exponential families,'' University of
+  Chicago and Toyota Technological Institute Machine Learning
+  Seminar}
+
+\cvitem{}{ ``Regularization, optimization, and approximation: The benefits
+  of a convex combination,'' Texas A\&M University, Department of
+  Statistics }
+
+\cvitem{}{ ``Regularization, optimization, and approximation: The benefits
+  of a convex combination,'' University of Toronto, Department of
+  Statistics }
+
+\cvitem{}{ ``Regularization, optimization, and approximation: The benefits
+  of a convex combination,'' Colorado State University, Department of
+  Statistics }
+
+\cvitem{}{ ``Regularization, optimization, and approximation: The benefits
+  of a convex combination,'' University of Pittsburgh, Department of
+  Statistics }
+
+\cvitem{2018}{ ``Matrix sketching for alternating direction method of
+  multipliers optimization,'' Symposium on Statistics and Data
+  Science}
+
+\cvitem{}{``A Switching Kalman Filter for Modeling Classical Music
+  Performances,'' Institute of Mathematical and its Applications
+  Frontiers in Forecasting Workshop}
+
+\cvitem{}{ ``Statistical implications of (some) computational approximations,'' University of Virginia, Department of
+  Statistics}
+
+\cvitem{2017}{ ``Predicting phenotypes from microarrays using amplified,
+  initially marginal, eigenvector regression,'' $25^{th}$ Intelligent
+  Systems for Molecular Biology and the $16^{th}$ European Conference
+  on Computational Biology}
+
+\cvitem{}{ ``Compressed and penalized linear regression,'' Toyota
+  Technological Institute at Chicago, Machine Learning Seminar}
+
+\cvitem{}{ ``Compressed and penalized linear regression,'' Pontificia
+  Universidad Cat\'olica del Per\'u, Department of 
+  Mathematics and Statistics}
+% \cvitem{}{ ``Minimax density estimation,'' $20^{th}$ International Conference on Artificial Intelligence and Statistics}
+
+\cvitem{}{ ``Estimating $\beta$-mixing coefficients with histograms,''
+  American Mathematical Society Spring Central Sectional Meeting,
+  Special Session on Dependence in Probability and Statistics}
+
+\cvitem{2016}{ ``Approximation-regularization for analysis of large data sets,''
+  University of Louisville, Department of Bioinformatics and
+  Biostatistics}
+
+\cvitem{}{ ``Approximation-regularization for analysis of large data
+  sets,''  University of California, Davis, Department of Statistics}
+
+\cvitem{}{ ``Approximation-regularization for analysis of large data
+  sets,''  Indiana University-Purdue University Indianapolis, Department
+  of Biostatistics}
+
+\cvitem{}{ ``Approximation-regularization for analysis of large data
+  sets,''  National Center for Atmospheric Research}
+
+\cvitem{}{ ``Risk estimation for high-dimensional lasso regression,'' Joint
+  Statistical Meetings}
+
+\cvitem{2015}{ ``Approximate principal components analysis of large data sets,''
+  Yale University, Department of Statistics}
+
+\cvitem{2014}{ ``Approximate principal components analysis of large data sets,''
+  Joint Statistical Meetings}
+
+\cvitem{}{ ``Clustering classical music performance,''
+  Universit\'e Laval, Department of Mathematics and Statistics}
+
+\cvitem{2013}{ ``Clustering classical music performance,'' $15^{th}$ IMS New Researchers Conference}
+% \cvitem{}{ ``The lasso, persistence, and cross-validation,''
+%   $30^{th}$ International Conference on Machine Learning}
+
+\cvitem{2012}{``Nonparametric risk bounds for time-series
+  prediction,'' Yahoo! Research} 
+
+\cvitem{}{``Nonparametric risk bounds for time-series prediction,'' George
+  Mason University, Department of Statistics}
+
+\cvitem{}{``Nonparametric risk bounds for time-series prediction,''
+  Bocconi University, Department of Decision Sciences}
+
+\cvitem{}{``Nonparametric risk bounds for time-series prediction,''
+  Indiana University, Department of Statistics}
+
+\cvitem{}{``Estimating beta-mixing coefficients,'' $14^{th}$
+  International Conference on Artificial Intelligence and Statistics}
+
+\cvitem{}{``Estimating beta-mixing coefficients,'' American Statistical
+  Association, Pittsburgh Chapter Annual Meeting} 
+
+\cvitem{}{``Spectral approximation methods: performance evaluations in
+  clustering and classification'' The Classification Society Annual Meeting}
+
+\cvitem{2010}{``Generalization error bounds for state-space models with an
+  application to economic forecasting,''
+  Joint Statistical Meetings}
+
+\section{Invited short courses}
+
+\cvitem{2015}{``Short course on the predictive viewpoint,''
+  Institute for New Economic Thinking Young Scholar Workshop,
+  New York}
+
+\cvitem{2013}{``Short course on the predictive viewpoint,'' Institute for New
+  Economic Thinking Young Scholar Workshop, 
+  Hong Kong}
+    
+    
+    
+\section{Contributed talks}
+
+\cvitem{2021}{``COVID-19 modeling and forecasting in the US and Canada:
+  A statistician's perspective,'' University of British Columbia,
+  Department of Statistics}
+
+\cvitem{2019}{``Sufficient principal component regression for
+  genomics,'' Joint Statistical Meetings}
+
+\cvitem{2017}{ ``Compressed and penalized linear regression,'' Indiana
+  University, Department of Statistics}
+
+\cvitem{}{ ``Predicting phenotypes from microarrays using amplified,
+  initially marginal, eigenvector regression,'' Joint Statistical Meetings}
+
+\cvitem{2015}{ ``Approximate principal components analysis of large data sets,''
+  Indiana University SOIC, Intelligent \& Interactive Systems}
+
+\cvitem{2014}{ ``Statistical machine learning with structured data,''
+  Indiana University, Department of Statistics}
+
+\cvitem{2012}{ ``Nonparametric risk bounds for time-series prediction,''
+  Indiana University, Department of Economics}
+
+
+
+
+
+\section{Course instruction}
+
+\vspace{6pt}
+\cvitem{}{\textbf{University of British Columbia}, \emph{2020--}}
+\cvitem{Stat 550}{Techniques of Statistical Consulting (W21T2, W22T2, W23T2)}
+\cvitem{Stat 535a}{Computational Statistics - Convex optimization (W20T2)}
+\cvitem{Stat 406}{Methods for Statistical Learning (W20T1, W21T1, W22T1, W23T1)}
+
+\vspace{6pt}
+\cvitem{}{\textbf{Indiana University Department of Statistics},
+  \emph{2012--2020}}
+\cvitem{S301}{Introduction to Business Statistics (Fa13, Sp14, Fa14)}
+\cvitem{S432}{Applied Linear Models II (Sp16, Sp17, Sp18)}
+\cvitem{S682}{Topics in Statistical Machine Learning (Sp14)}
+\cvitem{S721}{Advanced Statistical Theory I (Fa12, Fa14)}
+\cvitem{S722}{Advanced Statistical Theory II (Sp13)}
+\cvitem{S771}{Advanced Data Analysis I (Fa16, Sp17, Fa19)}
+\cvitem{S772}{Advanced Data Analysis II (Fa16, Sp17, Fa19)}
+\cvitem{S782}{Topics in Statistical Learning Theory (Fa17)}
+\cvitem{S785}{Seminar on Statistical Theory (Fa17, Sp17, Fa19)}
+
+\vspace{6pt}
+\cvitem{}{\textbf{University of Chicago Booth School of Business},
+  \emph{2018}}
+\cvitem{41911}{Advanced Econometrics (Fa18)}
+
+\vspace{6pt}
+\cvitem{}{\textbf{Carnegie Mellon University}, \emph{2010--2011}}
+\cvitem{36--226}{Introduction to Probability and Statistics II (Su10,
+  Su11)}
+
+
+
+\section{Student advising}
+\vspace*{-8pt}
+\cvitem{}{\emph{\small (year indicates actual or anticipated completion)}}
+\vspace{0pt}
+
+\bolditem{PhD advisor}
+\cvitem{2025}{ Rachel Lobay (UBC Statstics)}
+\cvitem{2024}{ Jiaping Liu (UBC Statistics)}
+\cvitem{2020}{ Lei Ding (IU Statistics)}
+
+\vspace{6pt} 
+\bolditem{PhD dissertation committee}
+\cvitem{2026}{Nikolas Kristic (UBC Statistics)}
+\cvitem{2025}{Jonathan Agyeman (UBC Statistics)}
+\cvitem{2024}{Lorenzo Tomaselli (Carnegie Mellon Statistics)}
+\cvitem{}{ Ning Shen (UBC Statistics)}
+\cvitem{}{ Lin Zhang (UBC Statistics)}
+\cvitem{2021}{ Sanna Wager (IU Informatics)}
+\cvitem{2020}{ Yucong Jiang (IU Computer Science)}
+\cvitem{}{ Chao Tao (IU Computer Science)}
+\cvitem{}{ Shay Liu (IU Geology)}
+\cvitem{2019}{ Zikun Yang (IU Statistics)}
+\cvitem{}{ Xuefu Wang (IU Statistics)}
+\cvitem{2018}{ Robert Lunde (Carnegie Mellon Statistics)}
+\cvitem{2017}{ Rong Jin (IU Informatics)}
+\cvitem{2015}{ Yupeng Gu (IU Informatics)}
+
+\vspace{6pt}
+\bolditem{MSc thesis advisor}
+\cvitem{2025}{Christine Chuong (UBC Statistics)}
+\cvitem{}{Tom Tang (UBC Statistics, co-advisor J.\ Chen)}
+\cvitem{}{Sarah Masri (UBC Statistics)}
+\cvitem{}{Wakeel Adekunle (UBC Statistics, co-advisor N.\ Heckman)}
+\cvitem{2022}{William Laplante (UBC Statistics, co-advisor B.\ Bloem-Reddy)}
+\cvitem{}{Elvis Cai (UBC Statistics, co-advisor P.\ Gustafson)}
+\cvitem{2021}{Xiaoxuan Liang (UBC Statistics)}
+\cvitem{}{Wei Tang (UBC Statistics)}
+\cvitem{2020}{Haoran Liu (IU Statistics)}
+\cvitem{2018}{ Arash Khodadadi (IU Statistics)}
+\cvitem{2017}{ Jia Wang (IU Statistics)}
+
+\vspace{6pt}
+\bolditem{PhD exam advisor}
+\cvitem{2020}{Robert Granger (IU Statistics)}
+\cvitem{}{Aaron Cohen (IU Statistics)}
+\cvitem{2017}{Lei Ding (IU Statistics)}
+\cvitem{}{ Raksha Kumaraswamy (IU Computer Science)}
+\cvitem{2015}{ Sanna Wager (PhD Informatics)}
+\cvitem{2014}{ Zikun Yang (IU Statistics)}
+\cvitem{}{ Lijiang Guo (IU Statistics)}
+
+\vspace{6pt}
+\bolditem{Undergraduate research}
+\cvitem{2022}{Ken Mawer (UBC NSERC USRA)}
+\cvitem{2020}{Mackenzie Turner (IU Center for Women in Technology REU)}
+\cvitem{2018}{Michael McBride (IU)}
+
+
+
+
+
+
+\section{Professional service}
+
+\bolditem{Society leadership}
+\cvitem{2023--2025}{Statistical Society of Canada, Regional Representative AB/BC/Yukon}
+
+\vspace{6pt}
+\bolditem{Associate Editor}
+\cvitem{2017--2022}{Journal of the American Statistical Association}
+\cvitem{2017--2022}{The American Statistician}
+
+\vspace{6pt}
+\bolditem{Tenure and promotion reviews}
+%\cvitem{}{Department of Statistics, Texas A\&M University, 2024}
+\cvitem{}{Department of Statistics and Actuarial Sciences, Simon Fraser University, 2023}
+
+\vspace{6pt}
+\bolditem{Grant reviews}
+\cvitem{}{National Sciences and Engineering Research Council, Discovery Grant, ad hoc}
+\cvitem{}{Canadian Statistical Sciences Institute}
+\cvitem{}{Division of Mathematics and Statistics, National Science Foundation}
+\cvitem{}{Institute for New Economic Thinking}
+
+\vspace{6pt}
+\bolditem{PhD Dissertation External Examiner}
+\cvitem{}{Department of Statistics and Actuarial Science, University of Waterloo, 2024}
+
+
+\vspace{6pt}
+\bolditem{Conference Scientific Committee}
+\cvitem{2024}{IMS International Conference on Statistics and Data Science (ICSDS), Nice FR}
+\cvitem{2023}{Midwest Machine Learning Symposium, Chicago, IL.}
+\cvitem{2021}{International Conference of the ERCIM WG on Computational and 
+Methodological Statistics (CMStatistics), London UK}
+
+
+\vspace{6pt}
+\bolditem{Conference Area Chair}
+\cvitem{}{Neural Information Processing Systems (NeurIPS)}
+\cvitem{}{International Conference on Learning Representations (ICLR)}
+\cvitem{}{International Conference on Machine Learning and Statistics (ICML)}
+
+\vspace{6pt}
+\bolditem{Conference Program Committee}
+\cvitem{}{Neural Information Processing Systems (NeurIPS)}
+\cvitem{}{Conference on Uncertainty in Artificial Intelligence (UAI)}
+\cvitem{}{International Conference on Artificial Intelligence and Statistics (AISTATS)}
+\cvitem{}{International Conference on Machine Learning and Statistics (ICML)}
+
+\vspace{6pt}
+\bolditem{Journal reviews}
+\cvitem{}{\begin{itemize*}[label=\raisebox{0.4ex}{\tiny$\bullet$}]
+\item[] \hspace{-.8ex}Electronic Journal of Statistics
+\item Epidemics
+\item Epidemiology and Infection 
+\item Harvard Data Science Review
+\item IEEE Transactions on Information Theory
+\item International Conference on Learning Theory (COLT)
+\item Journal of the American Statistical Association
+\item Journal of Applied Statistics
+\item Journal of Business and Economic Statistics
+\item Journal of Computational and Graphical Statistics
+\item Journal of Machine Learning Research
+\item Journal of Nonparametric Statistics
+\item Journal of Optimization Theory and Applications
+\item Journal of Statistical Theory and Practice
+\item Journal of Statistical Computation and Simulation
+\item Machine Learning Journal
+\item PLOS Computational Biology
+\item Proceedings of the National Academy of Sciences
+\item Statistical Science
+\item Statistics and Computing
+\item Technometrics
+\item TEST (Official Journal of the Spanish Society of Statistics and Operations Research)
+\item Wellcome Open Research
+\end{itemize*}}
+
+
+\vspace{6pt}
+\bolditem{Other}
+\cvitem{}{Awards committee, Student Paper Competition ASA SLDS
+  Section; 2018--2020}
+\cvitem{}{Session organizer, CMStatistics; 2020}
+\cvitem{}{Session chair, Joint Statistical Meetings; 2016}
+\cvitem{}{Session organizer, Joint Statistical Meetings; 2016}
+
+\vspace{6pt}
+\bolditem{Society memberships}
+\cvitem{}{American Statistical Association}
+\cvitem{}{Institute of Mathematical Statistics}
+\cvitem{}{Statistical Society of Canada}
+
+\section{University service}
+
+\cvitem{}{\textbf{University of British Columbia}}
+\cventry{2021--2022}{Vanier CGS Adjudication Committee (NSERC), Member }
+
+\vspace{6pt}
+\cvitem{}{\textbf{Indiana University}}
+\cventry{2019--2020}{Academic Fairness Committee, \emph{College of Arts and Sciences}}
+
+\cventry{2019--2020}{Center of Excellence for Women \& Technology. \emph{REU
+  advisor}}
+
+\cventry{2017--2020}{Center of Excellence for Women \& Technology, \emph{Faculty
+Ally}}
+
+\cventry{2015--2020}{CrossFit Club, \emph{Faculty advisor}}
+
+\cventry{2016--2018}{Faculty Student Mentoring Initiative, \emph{Office of the
+  Vice President for Diversity Equity and Multicultural Affairs}}
+
+\cventry{2014--2018}{Data Science Curriculum Committee, \emph{School
+    of Computing, Informatics, and Engineering + College of Arts and Sciences}}
+
+
+
+
+
+
+\section{Department service}
+
+\cvitem{}{\textbf{University of British Columbia}}
+\cventry{2022--2024}{Co-Chair, Graduate Operations Committee}
+\cventry{2022\xxx}{Member, Faculty Merit Committee}
+\cventry{2021--2022}{Member, Assistant Professor (Research) Search Committee}
+\cventry{2020--\xx}{Member, Graduate Operations Committee}
+
+
+\vspace{6pt}
+\cvitem{}{\textbf{Indiana University}}
+\cvitem{2019--2020}{Chair, Executive Committee}
+
+\cvitem{2019--2020}{Chair, Teaching-Track Promotion Committee}
+
+\cvitem{2019--2020}{Computing Committee}
+
+\cvitem{2019--2020}{Committee on Business Statistics}
+
+\cvitem{2018--2020}{Teaching-track Promotion Committee}
+
+\cvitem{2018--2020}{Faculty Hiring Committee}
+
+\cvitem{2018--2020}{Tenure Review Committee}
+
+\cvitem{2016--2020}{Graduate Studies Committee}
+
+\cvitem{2012--2018}{Colloquium Committee}
+
+\cvitem{2015--2016}{Undergraduate Studies Committee}
+
+\cvitem{2015--2016}{Executive Committee}
+
+\cvitem{2012--2015}{Graduate Studies Committee}
+
+\cvitem{2012--2015}{Faculty Hiring Committee}
+
+\cvitem{2013--2014}{Chair, Colloquium Committee}
+
+\section{Industry experience}
+
+\cventry{2020--\xx}{\textbf{COVID-19 Forecasting team lead},
+  \emph{\href{https://delphi.cmu.edu}{Delphi Group, Carnegie Mellon
+      University}}, Pittsburgh, PA}
+
+\cventry{2010\xxx}{\textbf{Statistical Consultant}, \emph{\href{http://www.alvarezandmarsal.com/}{Alvarez \& Marsal}},
+  New York, New York}
+
+\cventry{2006--2007}{\textbf{Research Associate}, \emph{\href{http://www.stlouisfed.org/}{Federal Reserve Bank of
+    St.\ Louis}}, St.\ Louis, Missouri}
+
+    
+\end{document}
+
+
+%% end of file `template.tex'.
