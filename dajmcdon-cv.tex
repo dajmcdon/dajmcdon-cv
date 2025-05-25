@@ -44,13 +44,20 @@
   \hspace{\separatorcolumnwidth}%
   \textsc{\Large #1}\par\nobreak\addvspace{6pt}%
 }
+
 \renewcommand*{\cvitem}[2]{%
+  \begin{tabular}{@{}p{\hintscolumnwidth}@{\hspace{\separatorcolumnwidth}}%
+    p{\maincolumnwidth}@{}}%
+    \raggedleft {#1} &  {#2}%
+    %\vspace*{4pt}
+  \end{tabular}%
+}
+\newcommand*{\cvitemhang}[2]{%
   \begin{tabular}{@{}p{\hintscolumnwidth}@{\hspace{\separatorcolumnwidth}}%
     p{\maincolumnwidth}@{}}%
     \raggedleft {#1} &  {#2}%
   \end{tabular}%
 }
-
 
 \begin{document}
 \maketitle
@@ -138,7 +145,7 @@ to improve outbreak response and support public health decision-making. Co-PI
 
 \cvitem{2021--2025}{Regularization and approximation: Statistical inference,
   model selection, and large data. PI. National Sciences and Engineering
-  Research Council of Canada, Discovery Grant, RGPIN-2021-02618; 135,000 CAD}
+  Research Council of Canada, Discovery Grant, RGPIN-2021-02618; 135,000 CAD.}
 
 \cvitem{2020--2021}{Detecting anomalies in COVID19
   indicators. PI. Canadian Statistical Sciences Institute, Rapid
@@ -205,14 +212,14 @@ Science Foundation, DMS--1407439; 90,000 USD.}
 Biggerstaff, M., and Borchering, R.K.} (2024), \enquote{Evaluation of flusight
 influenza forecasting in the 2021-22 and 2022-23 seasons with a new target
 laboratory-confirmed influenza hospitalizations,}
-\href{https://www.medrxiv.org/content/10.1101/2023.12.08.23299726v1}{\em Nature
-Communications}, forthcoming.\vspace*{6pt}}
+\href{https://doi.org/10.1038/s41467-024-50601-9}{\em Nature
+Communications}, 15, 6289.\vspace*{6pt}}
 \cvbibentry{whitematter}{}
 \cvbibentry{McDonaldSharpnack2019}{}
+\cvbibentry{sparsegl}{}
 \cvbibentry{TuzhlinaHastie2023}{}
 
-\cvbibentry{sparsegl}{2023}
-\cvbibentry{PhamDing2020}{}
+\cvbibentry{PhamDing2020}{2023}
 
 \cvbibentry{DingMcDonald2019}{2022}
 \cvitem{}{{\scshape Cramer, E.Y., Ray, E.L., Lopez, V.K., Bracher, J., \ldots,
@@ -286,6 +293,12 @@ approximations in machine learning,''
     
 
 \section{Invited presentations}
+
+\cvitem{2025}{``Markov-switching models for musical interpretation,'' Statistics Seminar, University of Manitoba Department of Statistics}
+\cvitem{}{``Markov-switching models for musical interpretation,'' University of California, Berkeley, Department of Statistics; local}
+\cvitem{}{``Nonparametric estimation of time-varying reproduction numbers,'' Statistics and Biostatistics Seminar, University of Waterloo Department of Statistics and Actuarial Science}
+\cvitem{}{``Markov-switching models for musical interpretation,'' Workshop on HMMs, CANSSI and University of British Columbia Department of Statistics
+}
 
 \cvitem{2024}{``An infectious disease forecast hub for Canada,'' Public Health 
   Agency of Canada, EMNID Monthly Seminar}
@@ -443,6 +456,10 @@ approximations in machine learning,''
 
 \section{Invited short courses}
 
+\cvitem{2025}{``Processing and Forecasting with Epidemic Surveillance Data,'' CANSSI Prairies Workshop Series in Data Science, Winnipeg, MB}
+
+\cvitem{2024}{``Short course on epidemiological forecasting,'' Insight Net Tech Transfer Workshop, Chapel Hill, NC}
+
 \cvitem{2015}{``Short course on the predictive viewpoint,''
   Institute for New Economic Thinking Young Scholar Workshop,
   New York}
@@ -520,16 +537,17 @@ approximations in machine learning,''
 \vspace{0pt}
 
 \bolditem{PhD advisor}
-\cvitem{2025}{ Rachel Lobay (UBC Statstics)}
-\cvitem{2024}{ Jiaping Liu (UBC Statistics)}
+\cvitem{2029}{ Xuan Li (UBC Statistics)}
+\cvitem{2026}{ Rachel Lobay (UBC Statstics)}
+\cvitem{2025}{ Jiaping Liu (UBC Statistics)}
 \cvitem{2020}{ Lei Ding (IU Statistics)}
 
 \vspace{6pt} 
 \bolditem{PhD dissertation committee}
 \cvitem{2026}{Nikolas Kristic (UBC Statistics)}
 \cvitem{2025}{Jonathan Agyeman (UBC Statistics)}
-\cvitem{2024}{Lorenzo Tomaselli (Carnegie Mellon Statistics)}
 \cvitem{}{ Ning Shen (UBC Statistics)}
+\cvitem{2024}{Lorenzo Tomaselli (Carnegie Mellon Statistics)}
 \cvitem{}{ Lin Zhang (UBC Statistics)}
 \cvitem{2021}{ Sanna Wager (IU Informatics)}
 \cvitem{2020}{ Yucong Jiang (IU Computer Science)}
@@ -543,6 +561,7 @@ approximations in machine learning,''
 
 \vspace{6pt}
 \bolditem{MSc thesis advisor}
+\cvitem{2026}{Hamed Helisaz (UBC Statistics)}
 \cvitem{2025}{Christine Chuong (UBC Statistics)}
 \cvitem{}{Tom Tang (UBC Statistics, co-advisor J.\ Chen)}
 \cvitem{}{Sarah Masri (UBC Statistics)}
@@ -579,16 +598,17 @@ approximations in machine learning,''
 \section{Professional service}
 
 \bolditem{Society leadership}
-\cvitem{2023--2025}{Statistical Society of Canada, Regional Representative AB/BC/Yukon}
+\cvitem{}{Statistical Society of Canada, Regional Representative AB/BC/Yukon, 2023--2025}
 
 \vspace{6pt}
-\bolditem{Associate Editor}
-\cvitem{2017--2022}{Journal of the American Statistical Association}
-\cvitem{2017--2022}{The American Statistician}
+\bolditem{Associate editor}
+\cvitem{}{Journal of the American Statistical Association, 2017--2022}
+\cvitem{}{The American Statistician, 2017--2022}
 
 \vspace{6pt}
 \bolditem{Tenure and promotion reviews}
-%\cvitem{}{Department of Statistics, Texas A\&M University, 2024}
+\cvitem{}{Department of Operations Research, Naval Postgraduate School, 2024}
+\cvitem{}{Department of Statistics, Texas A\&M University, 2024}
 \cvitem{}{Department of Statistics and Actuarial Sciences, Simon Fraser University, 2023}
 
 \vspace{6pt}
@@ -599,26 +619,27 @@ approximations in machine learning,''
 \cvitem{}{Institute for New Economic Thinking}
 
 \vspace{6pt}
-\bolditem{PhD Dissertation External Examiner}
+\bolditem{Ph.D.\ dissertation external examiner}
 \cvitem{}{Department of Statistics and Actuarial Science, University of Waterloo, 2024}
 
 
 \vspace{6pt}
-\bolditem{Conference Scientific Committee}
-\cvitem{2024}{IMS International Conference on Statistics and Data Science (ICSDS), Nice FR}
-\cvitem{2023}{Midwest Machine Learning Symposium, Chicago, IL.}
-\cvitem{2021}{International Conference of the ERCIM WG on Computational and 
-Methodological Statistics (CMStatistics), London UK}
+\bolditem{Conference scientific committee}
+\cvitem{}{IMS International Conference on Statistics and Data Science, 2025, Seville, SP}
+\cvitem{}{IMS International Conference on Statistics and Data Science, 2024, Nice FR}
+\cvitem{}{Midwest Machine Learning Symposium, 2023, Chicago IL}
+\cvitem{}{International Conference of the ERCIM WG on Computational and 
+Methodological Statistics (CMStatistics), 2021, London UK}
 
 
 \vspace{6pt}
-\bolditem{Conference Area Chair}
+\bolditem{Conference area chair}
 \cvitem{}{Neural Information Processing Systems (NeurIPS)}
 \cvitem{}{International Conference on Learning Representations (ICLR)}
 \cvitem{}{International Conference on Machine Learning and Statistics (ICML)}
 
 \vspace{6pt}
-\bolditem{Conference Program Committee}
+\bolditem{Conference program committee}
 \cvitem{}{Neural Information Processing Systems (NeurIPS)}
 \cvitem{}{Conference on Uncertainty in Artificial Intelligence (UAI)}
 \cvitem{}{International Conference on Artificial Intelligence and Statistics (AISTATS)}
@@ -655,6 +676,8 @@ Methodological Statistics (CMStatistics), London UK}
 
 \vspace{6pt}
 \bolditem{Other}
+\cvitem{}{Session organizer, IMS ICSDS; 2025}
+\cvitem{}{Session organizer, IMS ICSDS; 2024}
 \cvitem{}{Awards committee, Student Paper Competition ASA SLDS
   Section; 2018--2020}
 \cvitem{}{Session organizer, CMStatistics; 2020}
